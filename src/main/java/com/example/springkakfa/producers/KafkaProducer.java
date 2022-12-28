@@ -2,17 +2,14 @@ package com.example.springkakfa.producers;
 
 import com.example.springkakfa.models.Greeting;
 import com.example.springkakfa.models.Student;
-import org.springframework.messaging.Message;
-import org.springframework.messaging.support.MessageBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.KafkaHeaders;
+import org.springframework.messaging.Message;
+import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Service;
-
-import java.util.Arrays;
-import java.util.List;
 
 import static com.example.springkakfa.constants.AppConstant.*;
 
